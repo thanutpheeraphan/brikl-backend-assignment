@@ -12,3 +12,18 @@ model User {
   username String
   password String
 }
+
+model Llist { 
+  id       String @id @default(uuid())
+  listName String
+  taskList Task[] @relation()
+}
+
+model Task { 
+  id    	String @id @default(uuid())
+  listID 	String?
+  taskTitle	String
+  status   Boolean @default(false)
+  pos	   Int    
+  Llist    Llist? @relation(fields: [listID],references: [id])
+}
