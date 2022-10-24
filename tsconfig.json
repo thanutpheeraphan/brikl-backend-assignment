@@ -2,6 +2,7 @@
   "include": ["./**/*"],
   "compilerOptions": {
     "baseUrl": ".",
+	"types": ["jest"],
     "sourceMap": true,
     "target": "es6",
     "module": "commonjs",
