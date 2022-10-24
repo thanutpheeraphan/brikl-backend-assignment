@@ -16,12 +16,12 @@ This is the instruction to setup this project and run in your local machine. Not
 
 The test suite should run the following tests and passed.
 
-  ✓ should create a new list 
-  ✓ should create a new task 
-  ✓ should update a task title 
-  ✓ should update a task status 
-  ✓ should move a task upwards 
-  ✓ should move a task downwards 
+-  ✓ should create a new list 
+-  ✓ should create a new task 
+-  ✓ should update a task title 
+-  ✓ should update a task status 
+-  ✓ should move a task upwards 
+-  ✓ should move a task downwards 
 
 1. Navigate to the root of the project.
 2. Run `npm run test` in the command line.
